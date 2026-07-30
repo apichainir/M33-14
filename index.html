@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Science Portfolio</title>
+    <meta name="description" content="Portfolio one-page responsive สำหรับนักเรียนชั้น ม.3 ที่สนใจวิทยาศาสตร์อาหาร" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="#home" class="brand">Food Science Portfolio</a>
+        <button class="nav-toggle" aria-label="เปิดเมนู">☰</button>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#passion">Passion</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- Section 1: Hero -->
+      <section id="home" class="section hero">
+        <div class="container hero-grid">
+          <div>
+            <span class="eyebrow">นักเรียนชั้น ม.3 • Food Science Enthusiast</span>
+            <h1>ชื่อ-นามสกุล</h1>
+            <p class="tagline">
+              "Exploring Science Through Flavor — เปลี่ยนห้องครัวให้เป็นห้องแล็บ ด้วยวิทยาศาสตร์อาหาร"
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">ดูผลงานเด่น</a>
+              <button class="btn btn-secondary" data-download>ดาวน์โหลด PDF</button>
+            </div>
+            <div class="hero-highlights">
+              <span class="highlight-pill">Food Safety & Hygiene</span>
+              <span class="highlight-pill">Nutrition</span>
+              <span class="highlight-pill">Research Mindset</span>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <img src="https://via.placeholder.com/600x400" alt="ภาพตัวอย่างผลงานวิทยาศาสตร์อาหาร" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: About Me -->
+      <section id="about" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <p>Who I am และเส้นทางความสนใจในวิทยาศาสตร์อาหาร</p>
+          </div>
+
+          <div class="about-grid">
+            <article class="about-card">
+              <h3>ตัวตนของฉัน</h3>
+              <p>
+                ฉันเป็นนักเรียนชั้น ม.3 ที่หลงใหลในวิทยาศาสตร์อาหาร โภชนาการ
+                และเทคโนโลยีการถนอมอาหาร โดยเชื่อว่าอาหารไม่ใช่แค่ความอร่อย
+                แต่ยังเป็นเครื่องมือในการดูแลสุขภาพและแก้ปัญหาความมั่นคงทางอาหารได้
+              </p>
+            </article>
+
+            <article class="timeline-card">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="year">ม.1</div>
+                  <p>สนใจปฏิกิริยาเคมีในอาหาร เช่น Maillard Reaction</p>
+                </div>
+                <div class="timeline-item">
+                  <div class="year">ม.2</div>
+                  <p>เริ่มทำโครงงานทดลองถนอมอาหารในระดับโรงเรียน</p>
+                </div>
+                <div class="timeline-item">
+                  <div class="year">ม.3</div>
+                  <p>พัฒนาเมนูอาหารเพื่อสุขภาพและลงแข่งขันเทคโนโลยีอาหาร</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card">Food Safety & Hygiene</div>
+            <div class="skill-card">การวิเคราะห์คุณค่าทางโภชนาการ</div>
+            <div class="skill-card">กระบวนการคิดเชิงวิจัย</div>
+            <div class="skill-card">ความพิถีพิถัน</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Projects -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Projects & Showcase</h2>
+            <p>ผลงานเด่นที่สะท้อนแนวคิดวิทยาศาสตร์และนวัตกรรมอาหาร</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <img src="https://via.placeholder.com/600x400" alt="โครงงานวิจัยอาหาร" />
+              <div class="project-content">
+                <span class="project-tag">โครงงานวิจัย</span>
+                <h3>เพิ่มอายุการเก็บรักษาขนมไทยด้วยสารสกัดสมุนไพรธรรมชาติ</h3>
+                <p>ศึกษาการยับยั้งเชื้อราและยืดอายุการเก็บรักษาขนมไทยด้วยสารสกัดจากธรรมชาติ</p>
+                <button class="project-link" data-modal="project1">ดูรายละเอียด</button>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="https://via.placeholder.com/600x400" alt="นวัตกรรมอาหาร" />
+              <div class="project-content">
+                <span class="project-tag">นวัตกรรมอาหาร</span>
+                <h3>Plant-Based Local Snack</h3>
+                <p>ออกแบบขนมคบเคี้ยวโปรตีนสูงจากพืชท้องถิ่นและคำนวณคุณค่าทางโภชนาการ</p>
+                <button class="project-link" data-modal="project2">ดูรายละเอียด</button>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="https://via.placeholder.com/600x400" alt="กิจกรรมและเกียรติบัตร" />
+              <div class="project-content">
+                <span class="project-tag">กิจกรรม/เกียรติบัตร</span>
+                <h3>กิจกรรมห้องแล็บและกิจกรรมจิตอาสา</h3>
+                <p>รวมภาพกิจกรรมทดลองอาหาร กิจกรรมแจกอาหารโภชนาการสมดุล และเกียรติบัตรจากการแข่งขัน</p>
+                <button class="project-link" data-modal="project3">ดูรายละเอียด</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: Passion -->
+      <section id="passion" class="section section-alt">
+        <div class="container passion-grid">
+          <article class="passion-card">
+            <h3>ทำไมต้องวิทยาศาสตร์อาหาร?</h3>
+            <p>
+              ฉันเชื่อว่าวิทยาศาสตร์อาหารเป็นทางออกที่สำคัญในการสร้างอาหารที่ปลอดภัย
+              มีคุณค่าทางโภชนาการ และยั่งยืน เพื่อสนับสนุนสุขภาพของผู้คนและความมั่นคงทางอาหารในอนาคต
+            </p>
+          </article>
+          <article class="passion-card">
+            <h3>เป้าหมายในอนาคต</h3>
+            <p>
+              เป้าหมายของฉันคือการศึกษาต่อในระดับ ม.4 และพัฒนาตนเองให้เป็นนักวิจัยอาหาร
+              ที่สามารถสร้างนวัตกรรมอาหารเพื่อสุขภาพและสิ่งแวดล้อมได้จริง
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Section 5: Contact -->
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Contact</h2>
+            <p>ช่องทางการติดต่อและแหล่งเก็บข้อมูลผลงาน</p>
+          </div>
+          <div class="contact-grid">
+            <article class="contact-card">
+              <h3>Email</h3>
+              <a href="mailto:yourname@email.com">yourname@email.com</a>
+            </article>
+            <article class="contact-card">
+              <h3>Phone</h3>
+              <a href="tel:+66999999999">+66 999 999 999</a>
+            </article>
+            <article class="contact-card">
+              <h3>Social / Blog</h3>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram / Blog</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">© 2026 Food Science Portfolio</div>
+    </footer>
+
+    <div class="modal" aria-hidden="true">
+      <div class="modal-card">
+        <button class="modal-close" aria-label="ปิดหน้าต่าง">×</button>
+        <h2 class="modal-title">รายละเอียดผลงาน</h2>
+        <div class="modal-body"></div>
+      </div>
+    </div>
+
+    <template id="project1">
+      <div class="modal-details">
+        <img src="https://via.placeholder.com/600x400" alt="ภาพโครงงานวิจัย" />
+        <ul>
+          <li>ทดสอบความสามารถในการยับยั้งเชื้อราในขนมไทย</li>
+          <li>ใช้สารสกัดจากสมุนไพรธรรมชาติเป็นตัวเลือกที่ปลอดภัยและเป็นมิตรต่อสิ่งแวดล้อม</li>
+          <li>บันทึกผลทุก 3 วันเพื่อเปรียบเทียบความเปลี่ยนแปลง</li>
+        </ul>
+      </div>
+    </template>
+
+    <template id="project2">
+      <div class="modal-details">
+        <img src="https://via.placeholder.com/600x400" alt="ภาพนวัตกรรมอาหาร" />
+        <ul>
+          <li>ออกแบบสูตรให้มีโปรตีนสูงและแคลอรีเหมาะสม</li>
+          <li>ปรับอัตราส่วนแป้งและโปรตีนพืชเพื่อให้ได้เนื้อสัมผัสกรอบอร่อย</li>
+          <li>เน้นการใช้วัตถุดิบท้องถิ่นเพื่อสร้างมูลค่าให้กับชุมชน</li>
+        </ul>
+      </div>
+    </template>
+
+    <template id="project3">
+      <div class="modal-details">
+        <img src="https://via.placeholder.com/600x400" alt="ภาพกิจกรรมและเกียรติบัตร" />
+        <ul>
+          <li>กิจกรรมห้องแล็บเพื่อเรียนรู้กระบวนการทดลองอาหาร</li>
+          <li>จิตอาสาแจกอาหารโภชนาการสมดุลให้กับโรงเรียน</li>
+          <li>เกียรติบัตรจากการแข่งขันตอบคำถามวิทยาศาสตร์และค่ายแปรรูปอาหาร</li>
+        </ul>
+      </div>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
